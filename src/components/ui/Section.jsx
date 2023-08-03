@@ -16,7 +16,7 @@ export default function Section({
     <div className="mb-20 py-20">
       <div className={`${secClass} relative mx-auto my-0 w-4/5 px-8 py-6`}>
         {/* The Icon and the Intro box */}
-        <div className="absolute -left-6 -top-16 flex items-center gap-5 sm:-top-20 md:-left-8">
+        <div className="absolute -left-7 -top-16 flex items-center gap-5 sm:-top-20 md:-left-8">
           <i
             className={`fa-solid ${secIcon} icon-shadow text-5xl md:text-6xl`}
           ></i>
