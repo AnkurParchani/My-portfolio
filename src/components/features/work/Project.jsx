@@ -16,10 +16,7 @@ export default function Project({
         {/* Changing from */}
         {/* src={`./../../public/Images/projects/${projectImg}`} */}
         {/* To public/  */}
-        <img
-          src={`public/Images/projects/${projectImg}`}
-          className="rounded-lg "
-        />
+        <img src={`Images/projects/${projectImg}`} className="rounded-lg " />
         <ProjectContent
           projectCurrentStatus={projectCurrentStatus}
           projectName={projectName}
@@ -30,7 +27,7 @@ export default function Project({
         <div className="flex items-center justify-between px-6 py-9 lg:col-start-2 lg:col-end-3">
           <div className="flex w-1/12 items-center gap-2">
             {projectIcons.map((icon) => (
-              <img src={`/public/Images/icons/${icon}`} key={icon} />
+              <img src={`/Images/icons/${icon}`} key={icon} />
             ))}
           </div>
           <ProjectLinkButton
