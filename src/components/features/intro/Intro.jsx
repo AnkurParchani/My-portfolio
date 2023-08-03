@@ -15,7 +15,7 @@ export default function Intro() {
         <div className="flex flex-col gap-10">
           <img
             className="mb-10 w-96 rounded-lg bg-contain bg-center"
-            src="../../../public/Images/my-image.jpeg"
+            src="Images/my-image.jpeg"
             alt="my-image"
           />
           <h2 className="text-5xl font-semibold tracking-wide text-gray-100 sm:text-6xl lg:text-7xl">
