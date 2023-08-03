@@ -13,8 +13,11 @@ export default function Project({
   return (
     <div className="flex flex-col gap-4 rounded-lg bg-[#111418] shadow-md shadow-[#939aff]">
       <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:items-center">
+        {/* Changing from */}
+        {/* src={`./../../public/Images/projects/${projectImg}`} */}
+        {/* To public/  */}
         <img
-          src={`./../../public/Images/projects/${projectImg}`}
+          src={`public/Images/projects/${projectImg}`}
           className="rounded-lg "
         />
         <ProjectContent
@@ -27,7 +30,7 @@ export default function Project({
         <div className="flex items-center justify-between px-6 py-9 lg:col-start-2 lg:col-end-3">
           <div className="flex w-1/12 items-center gap-2">
             {projectIcons.map((icon) => (
-              <img src={`./../../../public/Images/icons/${icon}`} key={icon} />
+              <img src={`/public/Images/icons/${icon}`} key={icon} />
             ))}
           </div>
           <ProjectLinkButton
