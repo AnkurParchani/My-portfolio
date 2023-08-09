@@ -7,8 +7,8 @@ export default function Intro() {
   console.log(new Date().getHours());
   const currentHours = new Date().getHours();
   if (currentHours > 0 && currentHours < 12) greet = "Good morning!";
-  if (currentHours > 12 && currentHours < 18) greet = "Good evening!";
-  if (currentHours > 18) greet = "Good morning!";
+  if (currentHours > 12 && currentHours < 18) greet = "Good afternoon!";
+  if (currentHours > 18) greet = "Good evening!";
 
   return (
     <AnimateOnScroll sectionName="section-intro">
