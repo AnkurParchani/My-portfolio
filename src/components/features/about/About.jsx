@@ -1,14 +1,12 @@
 import AnimateOnScroll from "../../ui/AnimateOnScroll";
-import Question from "../../ui/Question";
+import Headline from "../../ui/Headline";
 import Section from "../../ui/Section";
 
 export default function About() {
   return (
     <AnimateOnScroll sectionName="section-about">
-      <Question
-        question="Want to know more?"
-        secQuestionClass="sec-about--question"
-      />
+      <Headline line="Want to know more?" headlineClass="sec-about--headline" />
+
       <Section
         secClass="sec-about--border"
         secHeading="About"
@@ -24,8 +22,8 @@ export default function About() {
               MERN
             </span>{" "}
             full-stack developer from Chattisgarh, India, with over 1 year of
-            experience. In my portfolio, you&apos;ll find a collection of
-            projects that reflect my creativity and technical prowess.
+            experience. In my portfolio, you&apos;ll discover a compilation of
+            projects that showcase my creativity and technical skills.
           </p>
           <p>
             Despite having completed a limited number of projects, I am

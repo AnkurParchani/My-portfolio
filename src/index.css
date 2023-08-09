@@ -77,7 +77,7 @@ body {
   border-image: linear-gradient(to bottom, #fff, #7ee787) 1;
 }
 
-.sec-intro--question {
+.sec-intro--headline {
   color: transparent;
   background-image: linear-gradient(to right, #7ee787, #fff);
   background-clip: text;
@@ -89,7 +89,7 @@ body {
   border-image: linear-gradient(to bottom, #fff, #ffa28b) 1;
 }
 
-.sec-about--question {
+.sec-about--headline {
   color: transparent;
   background-image: linear-gradient(to right, #ffa28b, #fff);
   background-clip: text;
@@ -101,7 +101,7 @@ body {
   border-image: linear-gradient(to bottom, #fff, #939aff) 1;
 }
 
-.sec-work--question {
+.sec-work--headline {
   color: transparent;
   background-image: linear-gradient(to right, #939aff, #fff);
   background-clip: text;
@@ -113,7 +113,7 @@ body {
   border-image: linear-gradient(to bottom, #fff, #8bf0ff) 1;
 }
 
-.sec-contact--question {
+.sec-contact--headline {
   color: transparent;
   background-image: linear-gradient(to right, #8bf0ff, #fff);
   background-clip: text;

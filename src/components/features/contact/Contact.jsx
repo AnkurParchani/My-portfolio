@@ -1,5 +1,5 @@
 import Section from "../../ui/Section";
-import Question from "../../ui/Question";
+import Headline from "../../ui/Headline";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactInput from "./ContactInput";
@@ -33,9 +33,9 @@ export default function Contact() {
 
   return (
     <AnimateOnScroll sectionName="section-contact">
-      <Question
-        question="Queries? Why not!"
-        secQuestionClass="sec-contact--question"
+      <Headline
+        line="Queries? Why not!"
+        headlineClass="sec-contact--headline"
       />
       <Section
         secClass="sec-contact--border"

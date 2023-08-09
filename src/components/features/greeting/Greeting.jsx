@@ -24,8 +24,7 @@ export default function Greeting() {
           Let&apos;s begin my story
         </h1>
         <p className="text-opacity text-xl font-medium leading-relaxed tracking-wider text-[#e7e7e8] opacity-0 lg:text-4xl">
-          I&apos;ll be brief and to the point, so as not to waste your valuable
-          time.
+          I&apos;ll be concise and straightforward to ensure I honor your time.
         </p>
       </div>
 

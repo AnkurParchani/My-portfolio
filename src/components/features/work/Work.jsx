@@ -1,11 +1,11 @@
 import AnimateOnScroll from "../../ui/AnimateOnScroll";
-import Question from "../../ui/Question";
+import Headline from "../../ui/Headline";
 import Section from "../../ui/Section";
 import Project from "./Project";
 
 const projectDescription = {
   hpArchitects:
-    "HP Architects' dynamic portfolio website, crafted and designed using Frontend technologies, beautifully exhibits their Architectural prowess. A project I'm proud to have contributed to the firm.",
+    "HP Architects' interactive portfolio website, skillfully crafted and designed using Frontend technologies, beautifully showcases their architectural expertise. A project I'm proud to have contributed to the firm.",
   ledgerMaster: `Introducing "Ledger Master" - a comprehensive ledger website designed to simplify and streamline your customer financial records. With Ledger Master, you can effortlessly create and manage customer profiles, track advanced payments, and monitor outstanding balances.`,
   myPortfolio:
     "My debut React project - a frontend-only personal portfolio. Explore my creative journey and showcase of work through this visually captivating digital showcase.",
@@ -14,9 +14,9 @@ const projectDescription = {
 export default function Work() {
   return (
     <AnimateOnScroll sectionName="section-work">
-      <Question
-        question="Some of my projects..."
-        secQuestionClass="sec-work--question"
+      <Headline
+        line="Some of my projects..."
+        headlineClass="sec-work--headline"
       />
       <Section
         secClass="sec-work--border"

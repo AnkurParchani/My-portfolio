@@ -1,3 +1,4 @@
+import ResumeLink from "../../ui/ResumeLink";
 import NavListLink from "./NavListLink";
 
 export default function NavLink({ flexType }) {
@@ -8,6 +9,7 @@ export default function NavLink({ flexType }) {
       <NavListLink linkTo="section-about">About</NavListLink>
       <NavListLink linkTo="section-work">Work</NavListLink>
       <NavListLink linkTo="section-contact">Contact</NavListLink>
+      <ResumeLink />
     </ul>
   );
 }
