@@ -1,6 +1,7 @@
 import AnimateOnScroll from "../../ui/AnimateOnScroll";
 import Headline from "../../ui/Headline";
 import Section from "../../ui/Section";
+import TechStack from "./TechStack";
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
         secSubHeading="of Developer who doesn't drink Coffee."
         secColor="text-[#ffa28b]"
       >
-        <div className="flex flex-col gap-8 text-2xl font-normal leading-loose tracking-wide text-gray-300 sm:text-3xl  sm:leading-loose md:gap-10 md:text-4xl md:leading-loose lg:leading-loose ">
+        <div className="flex flex-col gap-8 pb-8 text-2xl font-normal leading-loose tracking-wide text-gray-300  sm:pb-12 sm:text-3xl sm:leading-loose md:gap-10 md:pb-16 md:text-4xl md:leading-loose lg:leading-loose ">
           <p>
             A passionate{" "}
             <span className="font-bold tracking-wider text-[#ffa28b]">
@@ -36,6 +37,8 @@ export default function About() {
             forces and build a brighter future together!
           </p>
         </div>
+
+        <TechStack />
       </Section>
     </AnimateOnScroll>
   );
