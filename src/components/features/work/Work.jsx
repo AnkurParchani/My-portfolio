@@ -22,8 +22,8 @@ export default function Work() {
         secClass="sec-work--border"
         secHeading="Work"
         secIcon="fa-briefcase"
-        colorContent="Have a glance "
-        secSubHeading="at some of my projects."
+        // colorContent="Have a glance "
+        // secSubHeading="at some of my projects."
         secColor="text-[#939aff]"
       >
         <div className="flex flex-col gap-20 overflow-hidden rounded-lg py-5">
