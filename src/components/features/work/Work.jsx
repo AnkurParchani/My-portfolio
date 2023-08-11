@@ -57,11 +57,7 @@ export default function Work() {
             projectDescription={projectDescription.myPortfolio}
             goToProject="see codebase"
             projectLink="https://github.com/AnkurParchani/My-portfolio"
-            projectIcons={[
-              "tailwind-icon.png",
-              "react-icon.png",
-              "js-icon.svg",
-            ]}
+            projectIcons={["tailwind-icon.png", "react-icon.png"]}
             projectImg="My-portfolio.png"
           />
         </div>
