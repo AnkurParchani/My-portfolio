@@ -4,8 +4,11 @@ import Section from "../../ui/Section";
 import Project from "./Project";
 
 const projectDescription = {
+  edenEmpire:
+    "50% Myntra Clone, 100% Innovation: EdenEmpire, an ecommerce website, is a fusion of my expertise, offering a curated fashion shopping experience that's a reflection of everything I've learned.",
   hpArchitects:
     "HP Architects' interactive portfolio website, skillfully crafted and designed using Frontend technologies, beautifully showcases their architectural expertise. A project I'm proud to have contributed to the firm.",
+
   ledgerMaster: `Introducing "Ledger Master" - a comprehensive ledger website designed to simplify and streamline your customer financial records. With Ledger Master, you can effortlessly create and manage customer profiles, track advanced payments, and monitor outstanding balances.`,
   myPortfolio:
     "My debut React project - a frontend-only personal portfolio. Explore my creative journey and showcase of work through this visually captivating digital showcase.",
@@ -22,11 +25,24 @@ export default function Work() {
         secClass="sec-work--border"
         secHeading="Work"
         secIcon="fa-briefcase"
-        // colorContent="Have a glance "
-        // secSubHeading="at some of my projects."
         secColor="text-[#939aff]"
       >
         <div className="flex flex-col gap-20 overflow-hidden rounded-lg py-5">
+          <Project
+            projectCurrentStatus="DEPLOYED"
+            projectName="EdenEmpire"
+            projectDescription={projectDescription.edenEmpire}
+            goToProject="see project"
+            projectLink="https://650abf91ec73fb2bd40a71e5--heroic-meringue-bf8dbb.netlify.app/"
+            projectIcons={[
+              "tailwind-icon.png",
+              "react-icon.png",
+              "nodejs-icon.svg",
+              "mongodb-icon.png",
+              "react-query.png",
+            ]}
+            projectImg="EdenEmpire.png"
+          />
           <Project
             projectCurrentStatus="DEPLOYED"
             projectName="HP Architects"

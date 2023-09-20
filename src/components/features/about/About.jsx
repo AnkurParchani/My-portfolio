@@ -27,9 +27,9 @@ export default function About() {
             projects that showcase my creativity and technical skills.
           </p>
           <p>
-            Despite having completed a limited number of projects, I am
-            dedicated to continuous learning and always seeking new challenges
-            to enhance my skills.
+            Having honed my skills through various experiences, I am dedicated
+            to continuous learning and always seeking new challenges to further
+            enhance my abilities.
           </p>
           <p>
             I thrive on collaborations and eagerly embrace opportunities to
