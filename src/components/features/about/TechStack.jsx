@@ -1,9 +1,11 @@
 const stack = [
   "HTML",
   "CSS",
-  "Tailwind CSS",
   "Javascript",
-  "React",
+  "Typescript",
+  "NextJS",
+  "ReactJS",
+  "Tailwind CSS",
   "Redux",
   "React query",
   "Node.js",

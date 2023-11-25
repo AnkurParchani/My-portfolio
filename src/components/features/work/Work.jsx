@@ -4,8 +4,10 @@ import Section from "../../ui/Section";
 import Project from "./Project";
 
 const projectDescription = {
+  nextBlog:
+    "NextBlog empowers you to craft short, impactful blogs with optional images. Create and manage your account effortlessly, engage with other users by liking and saving their blogs, foster meaningful conversations through comments, and personalize your experience by toggling between light and dark themes.",
   edenEmpire:
-    "50% Myntra Clone, 100% Innovation: EdenEmpire, an ecommerce website, is a fusion of my expertise, offering a curated fashion shopping experience that's a reflection of everything I've learned.",
+    "50% Myntra Clone, 100% Innovation: EdenEmpire, an ecommerce website, is a fusion of my expertise, offering a curated fashion shopping experience than an Ecommerce website offers.",
   hpArchitects:
     "HP Architects' interactive portfolio website, skillfully crafted and designed using Frontend technologies, beautifully showcases their architectural expertise. A project I'm proud to have contributed to the firm.",
 
@@ -28,6 +30,21 @@ export default function Work() {
         secColor="text-[#939aff]"
       >
         <div className="flex flex-col gap-20 overflow-hidden rounded-lg py-5">
+          <Project
+            projectCurrentStatus="DEPLOYED"
+            projectName="NextBlog"
+            projectDescription={projectDescription.nextBlog}
+            goToProject="see project"
+            projectLink="https://next-blog-seven-eosin.vercel.app/"
+            projectIcons={[
+              "nextjs.svg",
+              "typescript.svg",
+              "tailwind-icon.png",
+              "nodejs-icon.svg",
+              "mongodb-icon.png",
+            ]}
+            projectImg="NextBlog2.png"
+          />
           <Project
             projectCurrentStatus="DEPLOYED"
             projectName="EdenEmpire"

@@ -13,7 +13,10 @@ export default function Project({
   return (
     <div className="flex flex-col gap-4 rounded-lg bg-[#111418] shadow-md shadow-[#939aff]">
       <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:items-center">
-        <img src={`Images/projects/${projectImg}`} className="rounded-lg " />
+        <img
+          src={`Images/projects/${projectImg}`}
+          className="w-full rounded-lg"
+        />
         <ProjectContent
           projectCurrentStatus={projectCurrentStatus}
           projectName={projectName}
