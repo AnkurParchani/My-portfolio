@@ -7,11 +7,11 @@ const stack = [
   "ReactJS",
   "Tailwind CSS",
   "Redux",
-  "React query",
+  "DrizzleORM",
   "Node.js",
   "Express.js",
   "MongoDB",
-  "Mongoose",
+  "PostgreSQL",
   "Git",
 ];
 

@@ -4,6 +4,8 @@ import Section from "../../ui/Section";
 import Project from "./Project";
 
 const projectDescription = {
+  shopSwift:
+    "A fully functional Ecommerce website made after learning about PostgreSQL with the help of DrizzleORM, Shop_Swift is an advanced eCommerce website with great user Interface, and the best thing about the site is its theme changer, which is the soul of the site",
   nextBlog:
     "NextBlog empowers you to craft short, impactful blogs with optional images. Create and manage your account effortlessly, engage with other users by liking and saving their blogs, foster meaningful conversations through comments, and personalize your experience by toggling between light and dark themes.",
   edenEmpire:
@@ -32,6 +34,21 @@ export default function Work() {
         <div className="flex flex-col gap-20 overflow-hidden rounded-lg py-5">
           <Project
             projectCurrentStatus="DEPLOYED"
+            projectName="Shop_Swift"
+            projectDescription={projectDescription.shopSwift}
+            goToProject="see project"
+            projectLink="https://shop-swift-tau.vercel.app/"
+            projectIcons={[
+              "nextjs.svg",
+              "typescript.svg",
+              "tailwind-icon.png",
+              "nodejs-icon.svg",
+              "postgres-icon.svg",
+            ]}
+            projectImg="shop_swift.png"
+          />
+          <Project
+            projectCurrentStatus="DEPLOYED"
             projectName="NextBlog"
             projectDescription={projectDescription.nextBlog}
             goToProject="see project"
@@ -43,7 +60,7 @@ export default function Work() {
               "nodejs-icon.svg",
               "mongodb-icon.png",
             ]}
-            projectImg="NextBlog2.png"
+            projectImg="NextBlog.png"
           />
           <Project
             projectCurrentStatus="DEPLOYED"
@@ -59,15 +76,6 @@ export default function Work() {
               "react-query.png",
             ]}
             projectImg="EdenEmpire.png"
-          />
-          <Project
-            projectCurrentStatus="DEPLOYED"
-            projectName="HP Architects"
-            projectDescription={projectDescription.hpArchitects}
-            goToProject="see project"
-            projectLink="https://hparchitects.in/"
-            projectIcons={["html-icon.png", "css-icon.png", "js-icon.svg"]}
-            projectImg="HpArchitects.png"
           />
           <Project
             projectCurrentStatus="NOT DEPLOYED"
@@ -86,12 +94,12 @@ export default function Work() {
           />
           <Project
             projectCurrentStatus="DEPLOYED"
-            projectName="My Portfolio"
-            projectDescription={projectDescription.myPortfolio}
-            goToProject="see codebase"
-            projectLink="https://github.com/AnkurParchani/My-portfolio"
-            projectIcons={["tailwind-icon.png", "react-icon.png"]}
-            projectImg="My-portfolio.png"
+            projectName="HP Architects"
+            projectDescription={projectDescription.hpArchitects}
+            goToProject="see project"
+            projectLink="https://hparchitects.in/"
+            projectIcons={["html-icon.png", "css-icon.png", "js-icon.svg"]}
+            projectImg="HpArchitects.png"
           />
         </div>
       </Section>
